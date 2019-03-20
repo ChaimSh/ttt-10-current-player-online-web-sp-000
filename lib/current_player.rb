@@ -14,6 +14,7 @@ end
 def turn_count(board)
   counter = 0
   board.each do |move|
+<<<<<<< HEAD
 if move == "X" || move == "O"
     counter += 1
   end
@@ -27,4 +28,10 @@ if turn_count(board) % 2 == 0
 else #turn_count % 2 != 0
    "O"
 end
+=======
+if move == "X" || "O"
+    return counter += 1
+  end
+end
+>>>>>>> 6c222559ab06b6d8fc6ff98b9e6f7c11bb37b9c4
 end
